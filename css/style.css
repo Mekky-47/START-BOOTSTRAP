@@ -1,0 +1,33 @@
+.inner{
+    background-color: #2C3E50;
+}
+#title{
+    transition: all 1s ;
+}
+.carda #img{
+    position:relative;
+    transition: .5s;
+}
+.carda{
+    position: relative;
+}
+.carda .overlay{
+    background-color: aqua;
+    position: absolute;
+    top: 0;
+    bottom:0 ;
+    left: 0;
+    right: 0 ;
+    inset:  0;
+    opacity: 0;
+    transition: all .5s;
+    border-radius: 6px;
+
+    cursor: pointer;
+}
+.overlay:hover{
+    opacity: .6;
+}
+li{
+    cursor: pointer;
+}
